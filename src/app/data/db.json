@@ -1,0 +1,33 @@
+{
+  "vehiculos":[
+      {
+        "id": 1,
+        "marca": "Ford",
+        "modelo": "Fiesta",
+        "año": "2012",
+        "patente": "ABC 123"
+      },
+      {
+        "id": 2,
+        "marca": "Chevrolet",
+        "modelo": "Corsa",
+        "año": "1999",
+        "patente": "DEF 456"
+      },
+      {
+        "id": 3,
+        "marca": "Fiat",
+        "modelo": "Siena",
+        "año": "2015",
+        "patente": "GHI 789"
+      }
+  ],
+  "users":[
+    {
+      "id": 1,
+      "username": "admin",
+      "mail": "admin@gmail.com",
+      "password": "admin123"
+    }
+  ]
+}
