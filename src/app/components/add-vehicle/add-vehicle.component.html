@@ -1,0 +1,27 @@
+<div class="container">
+    <h1>AGREGANDO AUTO!</h1>
+    <form [formGroup]="addCarForm" (ngSubmit)="addcar()">
+        <div class="mb-3">
+            <label for="marca" class="form-label">Marca</label>
+            <input formControlName="marca" type="text" class="form-control" id="marca" aria-describedby="marca">
+        </div>
+
+        <div class="mb-3">
+            <label for="modelo" class="form-label">Modelo</label>
+            <input formControlName="modelo" type="text" class="form-control" id="modelo" aria-describedby="modelo">
+        </div>
+
+        <div class="mb-3">
+            <label for="anio" class="form-label">Año</label>
+            <input formControlName="anio" type="text" class="form-control" id="anio" aria-describedby="anio">
+        </div>
+
+        <div class="mb-3">
+            <label for="patente" class="form-label">Patente</label>
+            <input formControlName="patente" type="text" class="form-control" id="patente" aria-describedby="patente">
+        </div>
+
+        <button type="submit" class="btn btn-success">Agregar Auto</button>
+    </form>
+    <button class="btn btn-danger" [routerLink]="['/home']">Atras</button>
+</div>
